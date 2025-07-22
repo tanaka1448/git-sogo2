@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鹿児島のおすすめ飲食店</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #FF5733; /* 飲食店らしい色に変更 */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .content h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .content h3 {
+            font-size: 1.5em;
+            margin-top: 30px;
+            color: #555;
+        }
+        .content p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .restaurant-item {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .restaurant-item:last-child {
+            border-bottom: none;
+        }
+        /* .restaurant-item img のスタイルは各imgタグに直接記述するため、ここからは削除 */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+            margin-top: 50px;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+        .back-link a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>鹿児島のおすすめ飲食店</h1>
+    </header>
+    <div class="content">
+        <p>鹿児島には、地元の食材を活かした美味しい料理を提供する飲食店がたくさんあります。特におすすめの5店舗をご紹介します。</p>
+
+        <section class="restaurant-item">
+            <h3>1. 豚カツ 川久 (とんかつ かわきゅう)</h3>
+            <img src="tonnkatu.png" alt="豚カツ 川久" style="max-width: 100%; height: 300px; object-fit: cover; display: block; margin: 15px auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <p>鹿児島黒豚を使った絶品の豚カツが味わえる老舗。ジューシーで旨味たっぷりの黒豚のロースやヒレを、サクサクの衣で揚げています。ランチタイムは特に賑わいます。</p>
+            <p>ジャンル: 豚カツ、和食</p>
+        </section>
+
+        <section class="restaurant-item">
+            <h3>2. 熊襲亭 (くまそてい)</h3>
+            <img src="kuma.png" alt="熊襲亭" style="max-width: 100%; height: 300px; object-fit: cover; display: block; margin: 15px auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <p>鹿児島の郷土料理を一堂に楽しめるお店。きびなごの刺身、さつま揚げ、とんこつ（豚の角煮）など、地元の味を存分に堪能できます。観光客にも人気です。</p>
+            <p>ジャンル: 郷土料理、和食</p>
+        </section>
+
+        <section class="restaurant-item">
+            <h3>3. 吾愛人 本店 (わかな ほんてん)</h3>
+            <img src="waka.png" alt="吾愛人 本店" style="max-width: 100%; height: 300px; object-fit: cover; display: block; margin: 15px auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <p>鹿児島市内にある人気の居酒屋。新鮮な魚介類や地鶏、黒豚など、鹿児島の旬の食材を使った創作料理が楽しめます。焼酎の種類も豊富です。</p>
+            <p>ジャンル: 居酒屋、和食</p>
+        </section>
+
+        <section class="restaurant-item">
+            <h3>4. 麺屋 剛 (めんや ごう)</h3>
+            <img src="menn.png" alt="麺屋 剛" style="max-width: 100%; height: 300px; object-fit: cover; display: block; margin: 15px auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <p>鹿児島ラーメンの代表格の一つ。濃厚な豚骨スープと中太麺が特徴で、地元の人々にも愛されています。チャーシューも絶品です。</p>
+            <p>ジャンル: ラーメン</p>
+        </section>
+
+        <section class="restaurant-item">
+            <h3>5. 吹上庵 (ふきあげあん)</h3>
+            <img src="huki.png" alt="吹上庵" style="max-width: 100%; height: 300px; object-fit: cover; display: block; margin: 15px auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <p>手打ち蕎麦が自慢のお店で、定食メニューも充実しています。特に「黒豚しゃぶそば」は、鹿児島の黒豚と蕎麦を一緒に楽しめる人気のメニューです。落ち着いた雰囲気で食事を楽しめます。</p>
+            <p>ジャンル: そば、和食</p>
+        </section>
+
+        <div class="back-link">
+            <p><a href="index.html">トップページに戻る</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 KCS鹿児島観光協会</p>
+    </footer>
+</body>
+</html>
