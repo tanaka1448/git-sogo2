@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鹿児島の歴史</title>
+    <style>
+        /* CSSファイルを使用しないため、この<style>ブロックは不要ですが、
+           もし他の要素に影響を与えるスタイルがstyles.cssになければ、
+           このまま残しておいても問題ありません。
+           以下はbody, header, .content, footer, .back-linkの基本的なスタイルです。
+           写真のスタイルはimgタグに直接記述します。
+        */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .content h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .content h3 {
+            font-size: 1.5em;
+            margin-top: 30px;
+            color: #555;
+        }
+        .content p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        /* 画像のスタイルはimgタグのstyle属性に直接記述するため、
+           .history-item img {} のスタイルは不要になります。
+        */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+            margin-top: 50px;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+        .back-link a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>鹿児島の歴史</h1>
+    </header>
+    <div class="content">
+        <p>鹿児島県は、日本の歴史において非常に重要な役割を果たしてきました。ここでは、鹿児島の豊かな歴史の中から、特に重要な5つのポイントをご紹介します。</p>
+
+        <section id="satsuma-han" class="history-item">
+            <h3>1. 薩摩藩の成立と発展</h3>
+            <img src="satuma.png" alt="薩摩藩" style="max-width: 100%; height: 300px; object-fit: cover; display: block; margin: 15px auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <p>鹿児島はかつて薩摩藩として知られ、中世から近世にかけて島津氏が支配しました。島津氏は琉球王国（現在の沖縄）とも密接な関係を持ち、独自の文化と経済圏を築き上げました。江戸時代には徳川幕府から半独立的な地位を保ち、特に貿易を通じて力を蓄えました。</p>
+        </section>
+
+        <section id="meiji-restoration" class="history-item">
+            <h3>2. 明治維新と薩摩の役割</h3>
+            <img src="meiji.png" alt="明治維新" style="max-width: 100%; height: 300px; object-fit: cover; display: block; margin: 15px auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <p>幕末には、薩摩藩は長州藩とともに倒幕運動の中心となり、日本の近代化の礎を築きました。西郷隆盛、大久保利通、小松帯刀といった多くの傑出した人物を輩出し、彼らは明治政府の要職に就き、日本の近代化を強力に推進しました。</p>
+        </section>
+
+        <section id="seinan-sensou" class="history-item">
+            <h3>3. 西南戦争</h3>
+            <img src="seinann.png" alt="西南戦争" style="max-width: 100%; height: 300px; object-fit: cover; display: block; margin: 15px auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <p>明治維新後、不平士族の反乱として起きた西南戦争（1877年）は、西郷隆盛を盟主とする旧薩摩士族と明治政府軍との間で戦われました。この戦争は日本の内乱の最後にして最大のものであり、西郷隆盛の死とともに終結し、武士の時代が完全に終わりを告げたことを象徴する出来事となりました。</p>
+        </section>
+
+        <section id="industrial-revolution" class="history-item">
+            <h3>4. 近代日本の産業化への貢献</h3>
+            <img src="sanngyou.png" alt="近代日本の産業化" style="max-width: 100%; height: 300px; object-fit: cover; display: block; margin: 15px auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <p>薩摩藩は、幕末から明治初期にかけて、集成館事業に代表されるような西洋技術の導入に積極的でした。製鉄、造船、紡績などの近代産業をいち早く導入し、日本の産業革命を牽引する役割を果たしました。これは日本の近代化の基礎を築く上で不可欠でした。</p>
+        </section>
+
+        <section id="cultural-heritage" class="history-item">
+            <h3>5. ユニークな文化遺産</h3>
+            <img src="bunnkaisann.png" alt="文化遺産" style="max-width: 100%; height: 300px; object-fit: cover; display: block; margin: 15px auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <p>鹿児島には、その歴史を物語る多くの文化遺産が残っています。世界遺産に登録されている「明治日本の産業革命遺産」の構成資産である旧集成館（仙巌園を含む）や、西郷隆盛ゆかりの地など、歴史的建造物や史跡が多数存在し、鹿児島の独自の文化と歴史を今に伝えています。</p>
+        </section>
+
+        <div class="back-link">
+            <p><a href="index.html">トップページに戻る</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 KCS鹿児島観光協会</p>
+    </footer>
+</body>
+</html>
